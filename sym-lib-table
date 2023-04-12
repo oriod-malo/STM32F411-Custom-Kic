@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "56579-0519")(type "KiCad")(uri "C:/Users/CTS/Documents/KiCad/7.0/projects/STM32 Discovery/footprints/56579-0519.kicad_sym")(options "")(descr ""))
+  (lib (name "LSM303AGRTR")(type "KiCad")(uri "C:/Users/CTS/Documents/KiCad/7.0/symbols/LSM303AGRTR.kicad_sym")(options "")(descr ""))
+)
