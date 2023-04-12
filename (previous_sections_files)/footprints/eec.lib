@@ -1,0 +1,58 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Molex 0565790576
+#
+DEF 0565790576 J 0 0 Y Y 1 L N
+F0 "J" 0 300 50 H V L CNN 
+F1 "0565790576" 0 400 50 H V L CNN 
+F2 "Molex-0565790576-*" 0 500 50 H I L CNN 
+F3 "http://www.molex.com/pdm_docs/sd/565790576_sd.pdf" 0 600 50 H I L CNN 
+F4 "USB - mini AB" 0 700 50 H I L CNN "Connector Type"
+F5 "5" 0 800 50 H I L CNN "Number of Contacts"
+F6 "USB 2.0 OTG" 0 900 50 H I L CNN "Specifications"
+F7 "Conn" 0 1000 50 H I L CNN "category"
+F8 "CONN RECEPT USB 5POS RT ANG SMD" 0 1100 50 H I L CNN "digikey description"
+F9 "WM17122CT-ND" 0 1200 50 H I L CNN "digikey part number"
+F10 "yes" 0 1300 50 H I L CNN "lead free"
+F11 "2fcfd54ce1e494dd" 0 1400 50 H I L CNN "library id"
+F12 "Molex" 0 1500 50 H I L CNN "manufacturer"
+F13 "538-56579-0576" 0 1600 50 H I L CNN "mouser part number"
+F14 "CONN_USB_SMT" 0 1700 50 H I L CNN "package"
+F15 "yes" 0 1800 50 H I L CNN "rohs"
+F16 "+85°C" 0 1900 50 H I L CNN "temperature range high"
+F17 "-20°C" 0 2000 50 H I L CNN "temperature range low"
+F18 "30VAC/DC" 0 2100 50 H I L CNN "voltage"
+DRAW
+X VBUS 1 -100 0 100 L 40 40 1 1 U 
+X D- 2 -100 -200 100 L 40 40 1 1 U 
+X D+ 3 -100 -400 100 L 40 40 1 1 U 
+X ID 4 -100 -600 100 L 40 40 1 1 U 
+X GND 5 -100 -800 100 L 40 40 1 1 U 
+X MNT_1 6 -100 -1000 100 L 40 40 1 1 U 
+X MNT_2 7 -100 -1200 100 L 40 40 1 1 U 
+X MNT_3 8 -100 -1400 100 L 40 40 1 1 U 
+X MNT_4 9 -100 -1600 100 L 40 40 1 1 U 
+S -700 200 -200 -1800 1 1 0 f
+C -450 0 30 1 1 0 N
+P 2 1 1 0 -420 0 -200 0 N
+C -450 -200 30 1 1 0 N
+P 2 1 1 0 -420 -200 -200 -200 N
+C -450 -400 30 1 1 0 N
+P 2 1 1 0 -420 -400 -200 -400 N
+C -450 -600 30 1 1 0 N
+P 2 1 1 0 -420 -600 -200 -600 N
+C -450 -800 30 1 1 0 N
+P 2 1 1 0 -420 -800 -200 -800 N
+C -450 -1000 30 1 1 0 N
+P 2 1 1 0 -420 -1000 -200 -1000 N
+C -450 -1200 30 1 1 0 N
+P 2 1 1 0 -420 -1200 -200 -1200 N
+C -450 -1400 30 1 1 0 N
+P 2 1 1 0 -420 -1400 -200 -1400 N
+C -450 -1600 30 1 1 0 N
+P 2 1 1 0 -420 -1600 -200 -1600 N
+ENDDRAW
+ENDDEF
+#
+# End Library
